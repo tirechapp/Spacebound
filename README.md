@@ -25,18 +25,17 @@ Player 2 = ARROW KEYS to move and RIGHT CTRL to fire
     **Mac & Linux users:**<br/>
         pip install pygame<br/>
 <br/>    
-**3> Download *Spacebound.py* located in this repository**<br/>
-<br/>       
+**3> Download *Spacebound.py* and the *'Assets'* folder from this repository, saving both into the same folder<br/>       
 **4> Launch the game from cmd or terminal**<br/>
 <br/>
     **Windows users:**<br/>
-        Copy the location of the directory containing the Spacebound.py file<br/>
-        *(This can be accomplished by navigating via file explorer to the directory containing Spacebound.py and<br/>
-          copying the address at the top of the window)*<br/>
+        Copy the location of the directory containing the Spacebound.py file and Assets folder<br/>
+        *(This can be accomplished by navigating via file explorer to the directory containing Spacebound.py and Assets, br/>
+          then copying the address at the top of the window)*<br/>
           <br/>
             Example: **C:\Users\tyler\Downloads**<br/>
             <br/>
-            Change directories to the location of Spacebound.py with the following command:<br/>
+            Change directories to the location of Spacebound.py and the Assets folder with the following command:<br/>
             <br/>
 cd C:\Users\tyler\Downloads <br/>
 *(replace C:\Users\tyler\Downloads with your own directory address)*<br/>
@@ -48,7 +47,7 @@ python Spacebound.py<br/>
               **The game will now launch!**<br/>
 <br/>            
     **Mac & Linux users:**<br/>
-        Change directories to the location of Spacebound.py with the following command:<br/>
+        Change directories to the location of Spacebound.py and Assets folder with the following command:<br/>
         <br/>
 cd ~/Downloads<br/>
 <br/>
