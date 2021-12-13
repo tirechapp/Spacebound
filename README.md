@@ -1,5 +1,6 @@
 # Spacebound
 A Spaceship Dogfight to the death!<br/>
+A very simple game developed in Python with the Pygame library.<br/>
 *Requires 2 players to play...*<br/>
 ## Controls
 Player 1 = WASD to move and LEFT CTRL to fire<br/>
