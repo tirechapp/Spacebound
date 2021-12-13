@@ -3,7 +3,7 @@ A spaceship duel to the death...<br/>
 *Requires 2 players to play*<br/>
 <br/>
 Developed by Tyler Chapp<br/>
-Created as a simple introduction to Pygame!
+Created as an introduction to Pygame!
 ## Controls
 Player 1 = WASD to move and LEFT CTRL to fire<br/>
 Player 2 = ARROW KEYS to move and RIGHT CTRL to fire
