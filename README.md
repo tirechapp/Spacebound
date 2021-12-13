@@ -1,9 +1,12 @@
 # Spacebound
-A simple spaceship duel...<br/>
-*Requires 2 players*<br/>
+A spaceship duel to the death...<br/>
+*Requires 2 players to play<br/>
 <br/>
 Developed by Tyler Chapp<br/>
 Created as a simple introduction to Pygame!
+## Controls
+Player 1 = WASD to move and LEFT CTRL to fire
+Player 2 = ARROW KEYS to move and RIGHT CTRL to fire*
 ## Usage
 **1> Download and Install Python if you don't have it installed already**<br/>
 <br/>
