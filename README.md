@@ -25,7 +25,7 @@ Player 2 = ARROW KEYS to move and RIGHT CTRL to fire
     **Mac & Linux users:**<br/>
         pip install pygame<br/>
 <br/>    
-**3> Download *Spacebound.py* and the *'Assets'* folder from this repository, saving both into the same folder<br/>       
+**3> Download *Spacebound.py* and the *'Assets'* folder from this repository, saving both into the same folder**<br/>       
 **4> Launch the game from cmd or terminal**<br/>
 <br/>
     **Windows users:**<br/>
