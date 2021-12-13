@@ -1,8 +1,8 @@
 # Spacebound
-A spaceship duel to the death...<br/>
-*Requires 2 players to play*<br/>
+A Spaceship Dogfight to the death!<br/>
+*Requires 2 players to play...*<br/>
 <br/>
-Developed by Tyler Chapp<br/>
+**Developed by Tyler Chapp**<br/>
 Created as an introduction to Pygame!
 ## Controls
 Player 1 = WASD to move and LEFT CTRL to fire<br/>
