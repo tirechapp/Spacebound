@@ -1,6 +1,6 @@
 # Spacebound
 A spaceship duel to the death...<br/>
-*Requires 2 players to play<br/>
+*Requires 2 players to play*<br/>
 <br/>
 Developed by Tyler Chapp<br/>
 Created as a simple introduction to Pygame!
