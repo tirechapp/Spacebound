@@ -15,15 +15,16 @@ BULLET_FIRE_SOUND = pygame.mixer.Sound('Assets/Gun+Silencer.mp3')
 HEALTH_FONT = pygame.font.SysFont('comicsans', 40)
 WINNER_FONT = pygame.font.SysFont('comicsans', 100)
 
-
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
+GREY = (128, 128, 128)
 RED = (255, 0, 0)
 YELLOW = (255, 255, 0)
+LIGHT_BLUE = (0, 128, 255)
 
 FPS = 60
 VEL = 5
-BULLET_VEL = 7
+BULLET_VEL = 10
 MAX_BULLETS = 3
 
 YELLOW_HIT = pygame.USEREVENT + 1
@@ -44,8 +45,8 @@ SPACE = pygame.transform.scale(pygame.image.load(os.path.join('Assets', 'space.p
 
 
 def main():
-    red = pygame.Rect(600, 200, SPACESHIP_WIDTH, SPACESHIP_HEIGHT)
-    yellow = pygame.Rect(200, 200, SPACESHIP_WIDTH, SPACESHIP_HEIGHT)
+    red = pygame.Rect(800, 225, SPACESHIP_WIDTH, SPACESHIP_HEIGHT)
+    yellow = pygame.Rect(50, 225, SPACESHIP_WIDTH, SPACESHIP_HEIGHT)
 
     red_bullets = []
     yellow_bullets = []
@@ -108,10 +109,10 @@ def main():
 
 def draw_window(red, yellow, red_bullets, yellow_bullets, red_health, yellow_health):
     WIN.blit(SPACE, (0,0))
-    pygame.draw.rect(WIN, BLACK, BORDER)
+    pygame.draw.rect(WIN, GREY, BORDER)
 
-    red_health_text = HEALTH_FONT.render("Health: " + str(red_health), 1, WHITE)
-    yellow_health_text = HEALTH_FONT.render("Health: " + str(yellow_health), 1, WHITE)
+    red_health_text = HEALTH_FONT.render("Health: " + str(red_health), 1, RED)
+    yellow_health_text = HEALTH_FONT.render("Health: " + str(yellow_health), 1, YELLOW)
     WIN.blit(red_health_text, (WIDTH - red_health_text.get_width() - 10, 10))                                        
     WIN.blit(yellow_health_text, (10 , 10))
     
@@ -167,7 +168,7 @@ def handle_bullets(yellow_bullets, red_bullets, yellow, red):
             red_bullets.remove(bullet)
             
 def draw_winner(text):
-    draw_text = WINNER_FONT.render(text, 1, WHITE)
+    draw_text = WINNER_FONT.render(text, 1, LIGHT_BLUE)
     WIN.blit(draw_text, (WIDTH/2 - draw_text.get_width()/2, HEIGHT/2 - draw_text.get_height()/2))
     pygame.display.update()
     pygame.time.delay(7000)
